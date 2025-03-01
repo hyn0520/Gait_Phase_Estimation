@@ -116,8 +116,8 @@ class EarlyStopping:
 early_stopping = EarlyStopping(patience=10, min_delta=1e-4)
 
 # Models and data can be replaced as needed
-file_path = './motion_data_with_ground_truth_-0.35_45.csv'
-model_name = "./Transformer_encoder/model/transformer_encoder_model_0.35_45.pth"
+file_path = '/motion_data_with_ground_truth_-0.2_15.csv'
+model_name = "/transformer_encoder_model.pth"
 
 # Read CSV data
 data = pd.read_csv(file_path)
